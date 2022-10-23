@@ -1,0 +1,43 @@
+.nav-mobile{
+
+position: fixed;
+top: 30px;
+right: 30px;
+cursor: pointer;
+}
+
+
+.nav-mobile .menu{
+border-radius: 10px;
+width: 130px;
+height: 200px;
+background-color: white;
+padding: 20px;
+position: absolute;
+right: -30px;
+/* transform: translateX(-50%); */
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+
+}
+
+
+
+
+
+@media (min-width:991px) {
+    
+.nav-mobile{
+
+display: none;
+
+
+}
+
+
+
+
+
+}

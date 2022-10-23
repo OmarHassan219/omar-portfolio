@@ -1,0 +1,103 @@
+/* .projects {
+    height: 100vh;
+} */
+.projects .row h1{
+    font-size: 80px;
+    font-weight: bold;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+}
+
+
+.projects .row .first{
+    background:  black 50% ;
+
+}
+.projects .row .second{
+    background:   #fed43a 50% ;
+
+}
+
+
+
+.projects .row p {
+    margin-top: 10px;
+    width: 475px;
+    font-size: 30px;
+    color: white;
+    letter-spacing: -2px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: left;
+}
+.button-container{
+    width: fit-content;
+    display: block;
+    margin-top: 30px;
+
+}
+.projects .button{
+    position: relative;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    background-repeat: no-repeat;
+    background-position: -120px -120px, 0 0;
+    background-image: -webkit-linear-gradient(
+    top left,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0.2) 37%,
+    rgba(255, 255, 255, 0.8) 45%,
+    rgba(255, 255, 255, 0.0) 50%  );
+    background-size: 250% 250%, 100% 100%;
+animation-name: button;
+animation-timing-function: ease-in-out;
+animation-duration: 1.5s;
+animation-delay: 2s;
+animation-iteration-count: infinite;
+animation-play-state: running;
+          transition: background-position 0s ease;
+          
+}
+.projects .image-box{
+    width: fit-content;
+    position: relative;
+cursor: pointer;
+}
+.projects .images-box img{
+    width: 280px;
+    background-position: center;
+    border-radius: 5px;
+    }
+
+    .projects .image-box::before{
+        content: attr(name);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.532);
+        color: white;
+        display: none;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .projects .image-box:hover::before{
+       display: flex;
+    }
+ 
+
+@keyframes button{
+
+from{
+    background-position: -200px 0, 0 0;
+    
+}
+to{
+    background-position: 0 0, 0 0;
+
+
+}
+
+
+}

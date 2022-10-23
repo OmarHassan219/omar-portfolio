@@ -1,0 +1,44 @@
+/* .about{
+    height: 100vh;
+    max-height: 100vh;
+} */
+/* .about-header{
+    font-size: 100px;
+    font-weight: bold;
+
+} */
+.about .row .first{
+    background:  black 50% ;
+
+}
+.about .row .second{
+    background:   #fed43a 50% ;
+
+}
+
+
+
+.about .row h1{
+    font-size: 80px;
+    font-weight: bold;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+}
+
+.about .row h1 span{
+    -webkit-text-stroke-width: 0;
+    color: #fff;
+
+}
+
+.about .row p {
+    margin-top: 10px;
+    width: 475px;
+    font-size: 30px;
+    color: white;
+    letter-spacing: -2px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: left;
+}
+

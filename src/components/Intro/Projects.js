@@ -5,7 +5,6 @@ import img3 from '../../Images/Pizza Hut.png'
 import img4 from '../../Images/wilson-ecommerce.png'
 import img5 from '../../Images/Screenshot (166).png'
 import img6 from '../../Images/Screenshot (165).png'
-import { blue } from '@mui/material/colors'
 
 const websites = [
 
